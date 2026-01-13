@@ -9,8 +9,7 @@
 <body bgcolor="pink">
 	<h1>Employee Form</h1>
 	<form action="${pageContext.request.contextPath}/saveEmp" method="post">
-		<label for="id">Id</label> <input type="number" id="id" name="id"><br>
-		<br> <label for="name">Name</label> <input type="text" id="name"
+		<label for="name">Name</label> <input type="text" id="name"
 			name="name"><br>
 		<br> <label for="department">Department</label> <input
 			type="text" id="department" name="department"><br>
